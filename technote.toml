@@ -1,0 +1,23 @@
+[technote]
+id = "DMTN-351"
+series_id = "DMTN"
+canonical_url = "https://dmtn-351.lsst.io"
+github_url = "https://github.com/lsst-dm/dmtn-351"
+github_default_branch = "main"
+date_created = 2026-08-18T21:26:14Z
+organization.name = "NSF-DOE Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Adam"
+name.family = "Snyder"
+internal_id = "snydera"
+orcid = "https://orcid.org/0000-0002-2343-0949"
+[[technote.authors.affiliations]]
+name = "University of California, Davis"
+internal_id = "UCDavis"
+address = "Davis"
