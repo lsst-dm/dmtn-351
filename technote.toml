@@ -21,3 +21,16 @@ orcid = "https://orcid.org/0000-0002-2343-0949"
 name = "University of California, Davis"
 internal_id = "UCDavis"
 address = "Davis"
+[[technote.authors]]
+name = {given = "Meredith L.", family = "Rawls"}
+internal_id = "rawlsml"
+orcid = "https://orcid.org/0000-0003-1305-7308"
+[[technote.authors.affiliations]]
+name = "University of Washington"
+internal_id = "Washington"
+ror = "https://ror.org/00cvxb145"
+
+[[technote.authors.affiliations]]
+name = "University of Washington"
+internal_id = "Washington-DIRAC"
+ror = "https://ror.org/00cvxb145"
