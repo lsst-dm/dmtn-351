@@ -9,6 +9,10 @@ Streaks and Glints in DP2
 Add content here
 ================
 
+In the Data Release Pipelines (DRP), the detection and analysis of trailed 
+objects is performed during the detection and measurement phase of the
+difference image analysis (DIA). 
+
 Linear Feature Detection
 ========================
 
@@ -26,6 +30,28 @@ Describe full streak detection algorithm and results.
 2. Describe the results and the population statistics.
    1. Include histograms of sigma/peak signal values for detected streaks by detector and filter.
    2. Maybe include some notable examples of identified streaks?
+
+The number of detected streaks per visit is shown in the following table, both
+separated by band, and as a cumulative total.
+
+====== ======= ====== =================
+Filter Streaks Visits Streaks per Visit
+====== ======= ====== =================
+u-band 16167   3433   4.7
+g-band 40072   6248   6.4
+r-band 54111   8345   6.5 
+i-band 69380   9693   7.2
+z-band 108166  7118   15.2
+Y-band 98661   4672   21.1
+All    386557  39509  9.8
+====== ======= ====== =================
+
+There is a substantial increase in the number of detected streaks per visit in
+z-band and Y-band visits. Based on the canonical reflectivity properties of the
+surfaces of orbiting objects and the spectral energy distribution of the
+illumination from the Sun, it was expected that the greatest number of bright
+streaks would be observed in g-band or r-band.
+
 
 Identified Improvements
 =======================
